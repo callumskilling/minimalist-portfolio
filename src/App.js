@@ -17,7 +17,7 @@ function App() {
           <Route index element={<PortfolioIndex />} />
           <Route path=":projectName" element={<PortfolioDetail />} />
         </Route>
-        <Route path="/contactme" element={<ContactMe />} />
+        <Route path="/contact" element={<ContactMe />} />
         <Route path="*" element={<NotFound /> } />
       </Routes>
       <svg src="/logo.svg" />

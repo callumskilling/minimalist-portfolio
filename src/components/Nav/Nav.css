@@ -1,0 +1,17 @@
+* {
+    color: hsla(245, 10%, 22%, 1);
+    list-style: none;
+    text-decoration: none;
+}
+
+nav > ul {
+    display: flex;
+}
+
+nav > ul > li {
+    padding: 2rem;
+}
+
+.active {
+    color: hsla(167, 36%, 54%, 1);
+}

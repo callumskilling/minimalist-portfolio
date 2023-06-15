@@ -14,4 +14,4 @@ const Nav = () => {
 }
 
 
-export {Nav}
+export { Nav }

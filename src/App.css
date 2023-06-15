@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;700&family=Public+Sans&display=swap');
+
+:root {
+    --ff-sans-serif: 'Public Sans', sans-serif;
+    --ff-serif: 'Ibarra Real Nova', serif;
+
+    --clr-slightly-desaturated-cyan: hsl(167, 36%, 54%);
+    --clr-dark-blue: hsl(205, 41%, 21%);
+    --clr-greyish-dark-blue: hsl(245, 10%, 22%);
+    --clr-very-light-grey: hsl(0, 0%, 98%);
+    --clr-light-grey: hsl(240, 2%, 92%);
+    --clr-bright-red: hsl(0, 90%, 57%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+    font-family: var(--ff-serif);
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -0.446429px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h2 {
+    font-family: var(--ff-serif);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
 }
 
-.App-link {
-  color: #61dafb;
+h3 {
+    font-family: var(--ff-serif);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.285714px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.body1 {
+    font-family: var(--ff-sans-serif);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.body2 {
+    font-family: var(--ff-sans-serif);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
 }

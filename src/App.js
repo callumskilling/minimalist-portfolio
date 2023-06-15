@@ -12,16 +12,18 @@ import "./App.css"
 function App() {
   return (
     <>
-      <Nav />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/portfolio">
-          <Route index element={<PortfolioIndex />} />
-          <Route path=":projectName" element={<PortfolioDetail />} />
-        </Route>
-        <Route path="/contact" element={<ContactMe />} />
-        <Route path="*" element={<NotFound /> } />
-      </Routes>
+      <div className="pageContainer">
+        <Nav />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/portfolio">
+            <Route index element={<PortfolioIndex />} />
+            <Route path=":projectName" element={<PortfolioDetail />} />
+          </Route>
+          <Route path="/contact" element={<ContactMe />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </div>
       <Footer />
     </>
   )

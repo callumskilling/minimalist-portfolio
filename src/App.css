@@ -18,6 +18,11 @@
     background-color: var(--clr-very-light-grey);
 }
 
+.pageContainer {
+    width: 77%;
+    margin-inline: auto;
+}
+
 h1 {
     font-family: var(--ff-serif);
     font-size: 50px;

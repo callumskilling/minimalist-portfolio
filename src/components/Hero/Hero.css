@@ -1,0 +1,60 @@
+.heroContainer {
+    background-image: url("../../assets/images/homepage/desktop/image-homepage-hero@2x.jpg");
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+
+.heroText {
+    width: 44%;
+    height: 60%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.heroTitle {
+    padding-right: 56px;
+    padding-bottom: 53px;
+}
+
+button {
+    border: none;
+    outline: none;
+    display: inline-flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+.aboutMeButton {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 48px;
+    width: 18%;
+    background-color: var(--clr-dark-blue);
+}
+
+.buttonIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(0,0%,0%,0.1);
+    height: 48px;
+    width: 24%;
+}
+
+.arrowIcon {
+    height: 16px;
+    background: none;
+}
+
+.buttonText {
+    background: none;
+    width: 76%;
+    color: white;
+}

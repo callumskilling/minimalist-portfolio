@@ -3,8 +3,10 @@ import { Home } from "./pages/Home";
 import { PortfolioIndex } from "./pages/PortfolioIndex";
 import { ContactMe } from "./pages/ContactMe";
 import { Nav } from "./components/Nav/Nav";
+import { Footer } from "./components/Footer/Footer"
 import { PortfolioDetail } from "./pages/PortfolioDetail";
 import { NotFound } from "./pages/NotFound";
+import "./App.css"
 
 
 function App() {
@@ -20,7 +22,7 @@ function App() {
         <Route path="/contact" element={<ContactMe />} />
         <Route path="*" element={<NotFound /> } />
       </Routes>
-      <svg src="/logo.svg" />
+      <Footer />
     </>
   )
 }

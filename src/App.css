@@ -12,15 +12,17 @@
     --clr-bright-red: hsl(0, 90%, 57%);
 }
 
+.sr_only {display: none;}
+
 * {
     margin: 0;
     padding: 0;
-    background-color: var(--clr-very-light-grey);
+    color: var(--clr-greyish-dark-blue);
 }
 
 .pageContainer {
     width: 77%;
-    margin-inline: auto;
+    margin-inline: auto;    background-color: var(--clr-very-light-grey);
 }
 
 h1 {

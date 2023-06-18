@@ -1,0 +1,17 @@
+.mobile_nav_toggle {
+    display: block;
+    background: url("../../assets/images/icons/hamburger.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0;
+    width: 24px;
+    height: 13px;
+    z-index: 9999;
+    transition: all 250ms ease-in-out;
+}
+
+.mobile_nav_toggle[aria-expanded="true"] {
+    background-image: url("../../assets/images/icons/close.svg");
+    width: 18px;
+    height: 19px;
+}

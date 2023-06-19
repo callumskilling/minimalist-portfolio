@@ -39,6 +39,11 @@
     background: none;
     width: 76%;
     color: white;
+    font-family: var(--ff-sans-serif);
+    font-weight: var(--fw-refular-400);
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -53,7 +58,7 @@
     .heroText {
         grid-area: overlap;
         align-self: end;
-        width: 80.5%;
+        width: 74.709302%;
         background-color: white;
         height: 278px;
         display: flex;
@@ -65,10 +70,21 @@
     .heroTitle {
         width: 458px;
     }
+
+    .aboutMeButton {
+        margin-top: 48px;
+    }
+    
 }
 
 @media only screen and (min-width: 1377px) {
     .heroText {
-        max-width: 514px;
+        width: 445px;
+        height: 357px;
+        
+    }
+
+    .heroTitle {
+        width: 390px;
     }
 }

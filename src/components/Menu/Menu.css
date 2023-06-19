@@ -9,7 +9,7 @@
     transform: translateX(300%);
     transition: all 250ms ease-out;
     min-width: 223px;
-    max-width: 412px;
+    max-width: 309px;
 }
 
 #nav_links[data-visible=true] {
@@ -45,7 +45,7 @@ nav > ul > li > a {
         transform: none;
         transition: none;
         min-width: 0px;
-        width: 49.25%;
+        width: 44.847605%
     }
 
     #nav_links[data-visible=true] {
@@ -58,14 +58,11 @@ nav > ul > li > a {
     }
 
     nav > ul > li {
-        font-family: var(--ff-sans-serif);
-        font-size: 12px;
-        line-height: 14.1px;
-        letter-spacing: 2px;
         padding: 0
     }
 
     nav > ul > li > a {
         color: var(--clr-dark-blue);
+        line-height: 0;
     }
 }

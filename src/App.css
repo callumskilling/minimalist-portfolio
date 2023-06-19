@@ -4,6 +4,24 @@
     --ff-sans-serif: 'Public Sans', sans-serif;
     --ff-serif: 'Ibarra Real Nova', serif;
 
+    --fw-regular-400: 400;
+    --fw-bold-700: 700;
+
+    --fs-xxlarge-50: 50px;
+    --fs-xlarge-40: 40px;
+    --fs-large-32: 32px;
+    --fs-regular-16: 16px;
+    --fs-small-15: 15px;
+
+    --lh-xxlarge-50: 50px;
+    --lh-xlarge-42: 42px;
+    --lh-large-36: 36px;
+    --lh-regular-30: 30px;
+
+    --ls-xxsmall: -0.45px;
+    --ls-xsmall: -0.36px;
+    --ls-small: -0.29px;
+
     --clr-slightly-desaturated-cyan: hsl(167, 36%, 54%);
     --clr-dark-blue: hsl(205, 41%, 21%);
     --clr-greyish-dark-blue: hsl(245, 10%, 22%);
@@ -17,7 +35,6 @@
 * {
     margin: 0;
     padding: 0;
-    color: var(--clr-greyish-dark-blue);
 }
 
 .pageContainer {
@@ -25,40 +42,51 @@
     margin-inline: auto;
 }
 
-h1 {
-    font-family: var(--ff-serif);
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 50px;
-    letter-spacing: -0.446429px;
+h1, h2, h3, .body1, .body2 {
+    color: var(--clr-greyish-dark-blue);
 }
 
-h2 {
+h1, h2, h3 {
     font-family: var(--ff-serif);
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 42px;
-    letter-spacing: -0.357143px;
+}
+
+.body1, .body2 {
+    font-family: var(--ff-sans-serif);
+    line-height: var(--lh-regular-30);
+}
+
+h1, h2 {
+    font-weight: var(--fw-bold-700);
+}
+
+h3, .body1, .body2 {
+    font-weight: var(--fw-regular-400);
+}
+
+h1, h2 {
+    font-size: var(--fs-xlarge-40);
+    line-height: var(--lh-xlarge-42);
+    letter-spacing: var(--ls-xsmall);
 }
 
 h3 {
-    font-family: var(--ff-serif);
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 36px;
-    letter-spacing: -0.285714px;
+    font-size: var(--fs-large-32);
+    line-height: var(--lh-large-36);
+    letter-spacing: var(--ls-small);
 }
 
 .body1 {
-    font-family: var(--ff-sans-serif);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
+    font-size: var(--fs-regular-16);
 }
 
 .body2 {
-    font-family: var(--ff-sans-serif);
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 30px;
+    font-size: var(--fs-small-15);
+}
+
+@media only screen and (min-width: 1440px) {
+    h1 {
+        font-size: var(--fs-xxlarge-50);
+        line-height: var(--lh-xxlarge-50);
+        letter-spacing: var(--ls-xxsmall);
+    }
 }

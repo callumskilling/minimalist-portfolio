@@ -13,7 +13,13 @@ const Hero = () => {
             <div className="heroContainer">
                     <img className="heroImage"
                         srcset={`${HeroBgMobile} 311w, ${HeroBgMobile2x} 622w, ${HeroBgTablet} 688w, ${HeroBgTablet2x} 1376w, ${HeroBgDesktop} 1110w, ${HeroBgDesktop2x} 2220w`}
-                        src={`${HeroBgMobile}`}
+                        sizes="
+                        (max-width: 311px) 622px,
+                        (max-width: 688px) 688px,
+                        (max-width: 1376px) 1376px,
+                        (max-width: 1110px) 1110px,
+                        (max-width: 2220px) 2220px"
+                        src={`${HeroBgMobile2x}`}
                         alt="Image of a desktop showing a portfolio project" />
                 <div className="heroText">
                     <h1 className="heroTitle">Hey, I'm Alex Spencer and I love building beautiful websites</h1>

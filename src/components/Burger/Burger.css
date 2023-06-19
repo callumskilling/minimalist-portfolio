@@ -1,5 +1,4 @@
 .mobile_nav_toggle {
-    display: block;
     background: url("../../assets/images/icons/hamburger.svg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,4 +13,10 @@
     background-image: url("../../assets/images/icons/close.svg");
     width: 18px;
     height: 19px;
+}
+
+@media only screen and (min-width: 768px) {
+    .mobile_nav_toggle {
+        display: none;
+    }
 }

@@ -53,7 +53,7 @@
 }
 
 .aboutMeButton:hover > * > img {
-    filter:grayscale(100%);
+    filter: brightness(1000%);
     mix-blend-mode: screen;
 }
 

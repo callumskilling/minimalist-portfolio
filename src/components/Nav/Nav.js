@@ -10,7 +10,7 @@ const Nav = () => {
         <div className="navBar">
             <img src={Logo} alt="logo" className="logo" />
             <Burger navMenuOpen={navMenuOpen} setNavMenuOpen={setNavMenuOpen} />
-            <Menu navMenuOpen={navMenuOpen} />
+            <Menu navMenuOpen={navMenuOpen} setNavMenuOpen={setNavMenuOpen} />
         </div>
 
     )

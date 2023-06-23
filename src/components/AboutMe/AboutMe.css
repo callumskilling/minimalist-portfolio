@@ -1,18 +1,46 @@
 .aboutMeContainer {
-    display: flex;
+    margin-top: 96px;
 }
 
-.aboutMeHeadshot {
-    background-image: url("../../assets/images/homepage/desktop/image-homepage-profile@2x.jpg");
-    background-size: cover;
-    height: 600px;
-    width: 48%;
+.profileImage > img {
+    width: 100%;
 }
 
 .aboutMeSection {
-    width: 32%;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    text-align: left;
+    margin-top: 32px;
+    border-top: solid 1px var(--clr-light-grey);
+    border-bottom: solid 1px var(--clr-light-grey);
+    padding-top: 32px;
+    padding-bottom: 51px;
+}
+
+.aboutMeSection > p {
+    padding-top: 28px;
+    padding-bottom: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+    .aboutMeContainer {
+        display: grid;
+        grid-template-columns: 0.41fr 0.494fr;
+        justify-content: space-between
+    }
+    
+    .aboutMeSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        margin-top: 0;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .aboutMeContainer {
+        grid-template-columns: 0.532fr 0.344fr;
+        gap: 128px;
+        justify-content: unset;
+    }
 }

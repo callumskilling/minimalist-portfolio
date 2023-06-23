@@ -84,6 +84,24 @@ h3 {
     font-size: var(--fs-small-15);
 }
 
+.simpleLink {
+    width: fit-content;
+    font-family: var(--ff-sans-serif);
+    font-size: 12px;
+    padding-inline: 32px;
+    padding-block: 16px;
+    border-radius: 0;
+    border: solid 1px var(--clr-greyish-dark-blue);
+    background: none;
+    letter-spacing: 2px;
+    transition: all 35ms ease-in;
+}
+
+.simpleLink:hover {
+    background-color: var(--clr-greyish-dark-blue);
+    color: white;
+}
+
 @media only screen and (min-width: 1440px) {
     h1 {
         font-size: var(--fs-xxlarge-50);

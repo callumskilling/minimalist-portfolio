@@ -1,0 +1,41 @@
+.ctaContainer {
+    margin-top: 115px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.ctaContainer > h2 {
+    max-width: 350px;
+}
+
+.contactMeLink {
+    margin-top: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+    .ctaContainer {
+        flex-direction: row;
+        margin-block: 96px;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    .divLine {
+        border-top: solid 1px var(--clr-light-grey);
+        flex-grow: 1;
+        margin-inline: 32px;
+    }
+
+    .contactMeLink {
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .ctaContainer {
+        margin-block: 150px;
+    }
+}

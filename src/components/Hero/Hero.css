@@ -19,6 +19,7 @@
     height: 48px;
     width: 200px;
     background-color: var(--clr-dark-blue);
+    transition: all 35ms ease-in;
 }
 
 .buttonIcon {
@@ -37,6 +38,29 @@
 
 .buttonText {
     background: none;
+    text-align: center;
+    width: 76%;
+    color: white;
+    font-family: var(--ff-sans-serif);
+    font-weight: var(--fw-refular-400);
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+}
+
+.aboutMeButton:hover {
+    background-color: var(--clr-slightly-desaturated-cyan);
+}
+
+.aboutMeButton:hover > * > img {
+    filter:grayscale(100%);
+    mix-blend-mode: screen;
+}
+
+
+.buttonText {
+    background: none;
+    text-align: center;
     width: 76%;
     color: white;
     font-family: var(--ff-sans-serif);

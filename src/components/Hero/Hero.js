@@ -6,6 +6,8 @@ import HeroBgTablet from "../../assets/images/homepage/tablet/image-homepage-her
 import HeroBgTablet2x from "../../assets/images/homepage/tablet/image-homepage-hero@2x.jpg"
 import HeroBgDesktop from "../../assets/images/homepage/desktop/image-homepage-hero.jpg"
 import HeroBgDesktop2x from "../../assets/images/homepage/desktop/image-homepage-hero@2x.jpg"
+import { Link } from "react-router-dom"
+import { HashLink } from "react-router-hash-link"
 
 const Hero = () => {
     return (
@@ -13,23 +15,26 @@ const Hero = () => {
             <div className="heroContainer">
                 <picture className="heroImage">
                     <source media="(min-width: 1440px)"
-                            srcSet={`${HeroBgDesktop} 1110w, ${HeroBgDesktop2x} 2220w`} 
+                        srcSet={`${HeroBgDesktop} 1110w, ${HeroBgDesktop2x} 2220w`}
                     />
                     <source media="(min-width: 768px)"
-                            srcSet={`${HeroBgTablet} 688w, ${HeroBgTablet2x} 1376w`}
+                        srcSet={`${HeroBgTablet} 688w, ${HeroBgTablet2x} 1376w`}
                     />
                     <source srcSet={`${HeroBgMobile} 311w, ${HeroBgMobile2x} 622w`}
                     />
-                    <img src={`${HeroBgMobile}`} alt="Image of a desktop showing a portfolio project"/>
+                    <img src={`${HeroBgMobile}`} alt="Image of a desktop showing a portfolio project" />
                 </picture>
                 <div className="heroText">
                     <h1 className="heroTitle">Hey, I'm Alex Spencer and I love building beautiful websites</h1>
-                    <button className="aboutMeButton" type="button">
-                        <span className="buttonIcon">
-                            <img src={ArrowIcon} className="arrowIcon" />
-                        </span>
-                        <span className="buttonText">ABOUT ME</span>
-                    </button>
+                    <HashLink smooth to="/#aboutMe">
+                        <div className="aboutMeButton">
+                            <span className="buttonIcon">
+                                <img src={ArrowIcon} className="arrowIcon" />
+                            </span>
+                            <span className="buttonText">ABOUT ME</span>
+
+                        </div>
+                    </HashLink>
                 </div>
             </div>
         </>

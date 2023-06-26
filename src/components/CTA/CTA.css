@@ -1,5 +1,4 @@
 .ctaContainer {
-    margin-top: 115px;
     margin-bottom: 80px;
     display: flex;
     flex-direction: column;
@@ -18,7 +17,6 @@
 @media only screen and (min-width: 768px) {
     .ctaContainer {
         flex-direction: row;
-        margin-block: 96px;
         justify-content: space-between;
         text-align: left;
     }

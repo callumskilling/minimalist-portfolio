@@ -1,5 +1,6 @@
 .aboutMeContainer {
     margin-top: 96px;
+    margin-bottom: 115px;
 }
 
 .profileImage > img {
@@ -23,7 +24,8 @@
     .aboutMeContainer {
         display: grid;
         grid-template-columns: 0.41fr 0.494fr;
-        justify-content: space-between
+        justify-content: space-between;
+        margin-bottom: 96px;
     }
     
     .aboutMeSection {

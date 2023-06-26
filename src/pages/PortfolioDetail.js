@@ -1,12 +1,12 @@
 import { ProjectDetailNav } from "../components/ProjectDetailNav/ProjectDetailNav"
 import { useParams } from "react-router-dom";
-import projects from '../assets/data/projectData.json';
+import {portfolioData} from '../assets/data/portfolioData';
 
 
 
 const PortfolioDetail = () => {
     const { projectName } = useParams();
-    const project = projects.find(project => projectName === project.project_title)
+    const project = portfolioData.find(project => projectName === project.project_title)
     return (
         <>
             <h1>Portfolio Detail: {project.project_title}</h1>

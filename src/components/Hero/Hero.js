@@ -6,10 +6,10 @@ import HeroBgTablet from "../../assets/images/homepage/tablet/image-homepage-her
 import HeroBgTablet2x from "../../assets/images/homepage/tablet/image-homepage-hero@2x.jpg"
 import HeroBgDesktop from "../../assets/images/homepage/desktop/image-homepage-hero.jpg"
 import HeroBgDesktop2x from "../../assets/images/homepage/desktop/image-homepage-hero@2x.jpg"
-import { Link } from "react-router-dom"
 import { HashLink } from "react-router-hash-link"
 
 const Hero = () => {
+    console.log(HeroBgDesktop)
     return (
         <>
             <div className="heroContainer">

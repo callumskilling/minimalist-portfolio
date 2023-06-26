@@ -1,14 +1,15 @@
 import { ProjectCardIndex } from '../components/ProjectCardIndex/ProjectCardIndex'
-import projects from '../assets/data/projectData.json';
+import { portfolioData } from '../assets/data/portfolioData';
+import { CTA } from '../components/CTA/CTA';
 
 const PortfolioIndex = () => {
     return (
         <>
-            <h1>Portfolio Index</h1>
-            {projects.map((project) => (
+            {portfolioData.map((project) => (
                 <ProjectCardIndex key={project.project_title} project={project} />
             )
             )}
+            <CTA />
         </>
     )
 }

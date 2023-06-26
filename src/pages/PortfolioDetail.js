@@ -1,6 +1,7 @@
 import { ProjectDetailNav } from "../components/ProjectDetailNav/ProjectDetailNav"
 import { useParams } from "react-router-dom";
-import {portfolioData} from '../assets/data/portfolioData';
+import { portfolioData } from '../assets/data/portfolioData';
+import { ProjectDetail } from "../components/ProjectDetail/ProjectDetail";
 
 
 
@@ -9,9 +10,9 @@ const PortfolioDetail = () => {
     const project = portfolioData.find(project => projectName === project.project_title)
     return (
         <>
-            <h1>Portfolio Detail: {project.project_title}</h1>
-            <p>{project.project_description}</p>
-            <ProjectDetailNav project={project}/>
+                <ProjectDetail project={project}/>
+                <ProjectDetailNav project={project} />
+
         </>
     )
 }

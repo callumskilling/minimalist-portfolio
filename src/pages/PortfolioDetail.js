@@ -2,6 +2,7 @@ import { ProjectDetailNav } from "../components/ProjectDetailNav/ProjectDetailNa
 import { useParams } from "react-router-dom";
 import { portfolioData } from '../assets/data/portfolioData';
 import { ProjectDetail } from "../components/ProjectDetail/ProjectDetail";
+import { CTA } from "../components/CTA/CTA"
 
 
 
@@ -10,9 +11,9 @@ const PortfolioDetail = () => {
     const project = portfolioData.find(project => projectName === project.project_title)
     return (
         <>
-                <ProjectDetail project={project}/>
-                <ProjectDetailNav project={project} />
-
+            <ProjectDetail project={project}/>
+            <ProjectDetailNav project={project} />
+            <CTA />
         </>
     )
 }

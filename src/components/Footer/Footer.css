@@ -12,7 +12,7 @@
     padding-inline: 8.5%;
 }
 
-.footerLogo > img {
+.footerLogo {
     filter: brightness(1000%);
 }
 

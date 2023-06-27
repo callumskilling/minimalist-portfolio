@@ -3,6 +3,7 @@ import "./ProjectDetailNav.css"
 import ArrowLeft from "../../assets/images/icons/arrow-left.svg";
 import ArrowRight from "../../assets/images/icons/arrow-right.svg";
 import { Link } from 'react-router-dom';
+import { GoToTop } from '../../utils/GoToTop';
 
 const ProjectDetailNav = (props) => {
     const { project } = props;
@@ -28,7 +29,7 @@ const ProjectDetailNav = (props) => {
         <>
             <div className="projectDetailNavContainer">
                 <div className="previousProjectContainer projectNavButton">
-                    <Link to={`http://localhost:3000/portfolio/${previousProject(projectIndex).project_title}`} className='projectLink prevProjectLink'>
+                    <Link to={`http://localhost:3000/portfolio/${previousProject(projectIndex).project_title}`} className='projectLink prevProjectLink' onClick={GoToTop()}>
                         <img className='leftArrow' src={ArrowLeft} />
                         <div className="prevNavText navText">
                             <h3>{previousProject(projectIndex).project_title}</h3>
@@ -38,7 +39,7 @@ const ProjectDetailNav = (props) => {
                 </div>
 
                 <div className="nextProjectContainer projectNavButton">
-                    <Link to={`http://localhost:3000/portfolio/${nextProject(projectIndex).project_title}`} className='projectLink nextProjectLink'>
+                    <Link to={`http://localhost:3000/portfolio/${nextProject(projectIndex).project_title}`} className='projectLink nextProjectLink' onClick={GoToTop()}>
                         <img className="rightArrow" src={ArrowRight} />
                         <div className="nextNavText navText">
                             <h3>{nextProject(projectIndex).project_title}</h3>

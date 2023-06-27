@@ -1,6 +1,7 @@
 import { portfolioData } from '../../assets/data/portfolioData';
 import { Link } from "react-router-dom";
 import "./ProjectDetail.css"
+import { GoToTop } from '../../utils/GoToTop';
 
 const ProjectDetail = (props) => {
     const { project } = props;
@@ -10,7 +11,7 @@ const ProjectDetail = (props) => {
     return (
         <>
             <div className="projectDetailContainer">
-                <picture className="projectHeroImage">
+                <picture className="projectHeroDetailImage">
                     <source media="(min-width: 1440px)"
                         srcSet={`${hero_desktop} 1110w, ${hero_desktop_2x} 2220w`}
                     />

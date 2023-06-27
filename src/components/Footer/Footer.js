@@ -4,6 +4,7 @@ import GitHub from "../../assets/images/icons/github.svg"
 import Twitter from "../../assets/images/icons/twitter.svg"
 import LinkedIn from "../../assets/images/icons/linkedin.svg"
 import "./Footer.css"
+import { GoToTop } from "../../utils/GoToTop"
 
 const Footer = () => {
     return (
@@ -11,12 +12,12 @@ const Footer = () => {
             <div className="footerContainer">
                 <div className="footerWrapper">
                     <div className="footerLogo">
-                        <img src={Logo} alt="logo" className="logo" />
+                        <Link to="/" onClick={GoToTop()}><img src={Logo} alt="logo" className="logo footerLogo" /></Link>
                     </div>
                     <div className="footerNav">
-                        <Link to="">HOME</Link>
-                        <Link to="/portfolio">PORTFOLIO</Link>
-                        <Link to="/contact">CONTACT ME</Link>
+                        <Link to="/" onClick={GoToTop()}>HOME</Link>
+                        <Link to="/portfolio" onClick={GoToTop()}>PORTFOLIO</Link>
+                        <Link to="/contact" onClick={GoToTop()}>CONTACT ME</Link>
                     </div>
                     <div className="socialMediaIcons">
                         <img src={GitHub} alt="Github Logo" className="socialMediaIcon" />

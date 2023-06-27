@@ -9,7 +9,6 @@ import HeroBgDesktop2x from "../../assets/images/homepage/desktop/image-homepage
 import { HashLink } from "react-router-hash-link"
 
 const Hero = () => {
-    console.log(HeroBgDesktop)
     return (
         <>
             <div className="heroContainer">

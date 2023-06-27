@@ -50,13 +50,13 @@ const ContactMe = () => {
                     </div>
                     <div className="contactFormBody contactSectionBody">
                         <form onSubmit={handleSubmit}>
-                            <label for="name">Name</label>
+                            <label htmlFor="name">Name</label>
                             <input type="text" placeholder="Jane Appleseed" id="name" onChange={handleChange} data-error={errors.name ? true : false} />
                             {errors.name && <p className="inputHint">{errors.name}</p>}
-                            <label for="email">Email Address</label>
+                            <label htmlFor="email">Email Address</label>
                             <input type="email" placeholder="email@example.com" id="email" onChange={handleChange} data-error={errors.email ? true : false} />
                             {errors.email && <p className="inputHint">{errors.email}</p>}
-                            <label for="message">Message</label>
+                            <label htmlFor="message">Message</label>
                             <textarea placeholder="How can I help?" rows="5" id="message" onChange={handleChange} data-error={errors.message ? true : false} ></textarea>
                             {errors.message && <p className="inputHint">{errors.message}</p>}
                             <input type="submit" value="SEND MESSAGE" className="simpleLink" id="simpleLinkSubmit" />

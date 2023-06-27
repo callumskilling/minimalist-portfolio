@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { PortfolioIndex } from "./pages/PortfolioIndex";
-import { Contact } from "./pages/ContactMe";
+import { Contact } from "./pages/Contact";
 import { Nav } from "./components/Nav/Nav";
 import { Footer } from "./components/Footer/Footer"
 import { PortfolioDetail } from "./pages/PortfolioDetail";

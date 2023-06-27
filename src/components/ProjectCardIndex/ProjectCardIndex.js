@@ -5,9 +5,6 @@ const ProjectCardIndex = (props) => {
     const {project} = props;
     const {hero_desktop, hero_desktop_2x, hero_tablet, hero_tablet_2x, hero_mobile, hero_mobile_2x} = project.image_paths.hero;
 
-
-
-    const projectPage = `http://localhost:3000/portfolio/${project.project_title}`
     return (
         <>
             <div className="projectCardIndexContainer">
@@ -25,7 +22,7 @@ const ProjectCardIndex = (props) => {
                 <div className="projectInfo">
                     <h1 className="projectTitle">{project.project_title}</h1>
                     <p className="body2">{project.project_description}</p>
-                    <Link to={projectPage}><div className="simpleLink">VIEW PROJECT</div></Link>                    
+                    <Link to={`/portfolio/${project.project_title}`}><div className="simpleLink">VIEW PROJECT</div></Link>                    
                 </div>
             </div>
         </>

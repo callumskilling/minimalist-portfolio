@@ -41,6 +41,7 @@
     width: 83%;
     max-width: 1111px;
     margin-inline: auto;
+    min-height: 100dvh;
 }
 
 h1, h2, h3, .body1, .body2 {

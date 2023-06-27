@@ -1,9 +1,12 @@
 .footerContainer {
+    background-color: var(--clr-greyish-dark-blue);
+}
+
+.footerWrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--clr-greyish-dark-blue);
     padding-block: 56px;
     gap: 40px;
     padding-inline: 8.5%;
@@ -44,11 +47,18 @@
 
 @media only screen and (min-width: 768px) {
     .footerContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footerWrapper {
         display: grid;
         grid-template-columns: 61px 1fr 104px;
         justify-content: space-between;
         padding-inline: 5.143229%;
         padding-block: 24px;
+        width: 100%;
+        max-width: 1111px;
     }
 
     .footerNav {

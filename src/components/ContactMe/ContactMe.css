@@ -1,0 +1,118 @@
+.getInTouchContainer {
+    border-block: solid 1px var(--clr-light-grey);
+}
+
+.getInTouchTitle {
+    padding-block: 24px;
+}
+
+.contactSectionBody > .socialMediaIcons {
+    padding-top: 24px;
+    padding-bottom: 32px;
+}
+
+.contactSectionBody > .socialMediaIcons > .socialMediaIcon {
+    filter: none;
+}
+
+.contactFormTitle {
+    padding-block: 24px;
+}
+
+label {
+    font-weight: var(--fw-bold-700);
+    opacity: 0.8;
+}
+
+label, input, textarea {
+    font-family: var(--ff-sans-serif);
+    font-size: 13px;
+    color: var(--clr-greyish-dark-blue);
+}
+
+input, textarea {
+    width: 100%;
+    border: none;
+    background-color: var(--clr-light-grey);
+    padding-block: 9px;
+    padding-left: 16px;
+    box-sizing: border-box;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+textarea {
+    resize: none;
+}
+
+input:focus, textarea:focus {
+    outline: solid 1px var(--clr-slightly-desaturated-cyan);
+}
+
+input[type="submit"]:focus {
+    outline: none;
+}
+
+input[data-error=true], textarea[data-error=true] {
+    outline: solid 1px var(--clr-bright-red);
+}
+
+#simpleLinkSubmit {
+    background-color: var(--clr-dark-blue);
+    color: white;
+}
+
+#simpleLinkSubmit:hover {
+    background: none;
+    border: solid 1px var(--clr-greyish-dark-blue);
+    color: var(--clr-greyish-dark-blue);
+}
+
+.inputHint {
+    position: relative;
+    top: -20px;
+    font-family: var(--ff-sans-serif);
+    color: var(--clr-bright-red);
+    font-size: 10px;
+    font-style: italic;
+}
+
+.contactContainer {
+    margin-bottom: 56px;
+}
+
+@media only screen and (min-width: 768px) {
+    .contactContainer {
+        margin-top: 96px;
+    }
+
+    .getInTouchTitle {
+        padding-top: 32px;
+    }
+
+    .contactFormTitle {
+        padding-block: 32px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .contactSectionTitle {grid-area: title;}
+    .contactSectionBody {grid-area: body;}
+
+    .contactFormContainer, .getInTouchContainer {
+        display: grid;
+        grid-template-areas: 
+            "title body";
+        grid-template-columns: 0.315fr 0.572fr;
+        justify-content: space-between;
+        padding-block: 48px;
+    }
+
+    .contactSectionTitle, .contactSectionBody {
+        padding: 0;
+    }
+
+    #socialMediaIcons {
+        padding-bottom: 0;
+    }
+}

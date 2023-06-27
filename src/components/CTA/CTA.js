@@ -8,7 +8,7 @@ const CTA = () => {
             <div className="ctaContainer">
                 <h2>Interested in doing a project together?</h2>
                 <div className="divLine"></div>
-                <Link to="/minimalist-portfolio/contact" className="contactMeLink" onClick={GoToTop()}><div className="simpleLink">CONTACT ME</div></Link>
+                <Link to="/minimalist-portfolio/contact" className="contactMeLink" onClick={GoToTop()}><div className="simpleLink" onClick={GoToTop()}>CONTACT ME</div></Link>
             </div>
         </>
     )

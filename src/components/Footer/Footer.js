@@ -12,7 +12,7 @@ const Footer = () => {
             <div className="footerContainer">
                 <div className="footerWrapper">
                     <div className="footerLogo">
-                        <Link to="/" onClick={GoToTop()}><img src={Logo} alt="logo" className="logo footerLogo" /></Link>
+                        <Link to="/minimalist-portfolio/" onClick={GoToTop()}><img src={Logo} alt="logo" className="logo footerLogo" /></Link>
                     </div>
                     <div className="footerNav">
                         <Link to="/minimalist-portfolio" onClick={GoToTop()}>HOME</Link>

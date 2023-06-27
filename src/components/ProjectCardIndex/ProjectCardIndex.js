@@ -20,7 +20,7 @@ const ProjectCardIndex = (props) => {
                     />
                     <source srcSet={`${hero_mobile} 311w, ${hero_mobile_2x} 622w`}
                     />
-                    <img src={`${hero_desktop_2x}`} alt={`Priview image of ${project.project_title}`} />
+                    <img src={`${hero_desktop_2x}`} alt={`Screenshot of ${project.project_title} project`} />
                 </picture>
                 <div className="projectInfo">
                     <h1 className="projectTitle">{project.project_title}</h1>

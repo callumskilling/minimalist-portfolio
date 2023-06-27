@@ -1,7 +1,5 @@
-import { portfolioData } from '../../assets/data/portfolioData';
 import { Link } from "react-router-dom";
 import "./ProjectDetail.css"
-import { GoToTop } from '../../utils/GoToTop';
 
 const ProjectDetail = (props) => {
     const { project } = props;
@@ -20,7 +18,7 @@ const ProjectDetail = (props) => {
                     />
                     <source srcSet={`${hero_mobile} 311w, ${hero_mobile_2x} 622w`}
                     />
-                    <img src={`${hero_desktop_2x}`} alt={`Priview image of ${project.project_title}`} />
+                    <img src={`${hero_desktop_2x}`} alt={`Screenshot of ${project.project_title} project`} />
                 </picture>
                 <div className="projectContainer">
                     <div className="projectInfoWrapper">
@@ -50,7 +48,7 @@ const ProjectDetail = (props) => {
                             />
                             <source srcSet={`${preview1_mobile} 311w, ${preview1_mobile_2x} 622w`}
                             />
-                            <img src={`${preview1_desktop_2x}`} alt={`Priview image of ${project.project_title}`} />
+                            <img src={`${preview1_desktop_2x}`} alt={`Screenshot of ${project.project_title} project`} />
                         </picture>
                         <picture className="projectPreviewImage">
                             <source media="(min-width: 1440px)"
@@ -61,7 +59,7 @@ const ProjectDetail = (props) => {
                             />
                             <source srcSet={`${preview2_mobile} 311w, ${preview2_mobile_2x} 622w`}
                             />
-                            <img src={`${preview2_desktop_2x}`} alt={`Priview image of ${project.project_title}`} />
+                            <img src={`${preview2_desktop_2x}`} alt={`Screenshot of ${project.project_title} project`} />
                         </picture>
                     </div>
                 </div>

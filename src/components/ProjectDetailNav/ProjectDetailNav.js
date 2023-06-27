@@ -30,7 +30,7 @@ const ProjectDetailNav = (props) => {
             <div className="projectDetailNavContainer">
                 <div className="previousProjectContainer projectNavButton">
                     <Link to={`http://localhost:3000/portfolio/${previousProject(projectIndex).project_title}`} className='projectLink prevProjectLink' onClick={GoToTop()}>
-                        <img className='leftArrow' src={ArrowLeft} />
+                        <img className='leftArrow' src={ArrowLeft} alt=''/>
                         <div className="prevNavText navText">
                             <h3>{previousProject(projectIndex).project_title}</h3>
                             <p className='body1 projectNavButtonSubtitle'>Previous Project</p>
@@ -40,7 +40,7 @@ const ProjectDetailNav = (props) => {
 
                 <div className="nextProjectContainer projectNavButton">
                     <Link to={`http://localhost:3000/portfolio/${nextProject(projectIndex).project_title}`} className='projectLink nextProjectLink' onClick={GoToTop()}>
-                        <img className="rightArrow" src={ArrowRight} />
+                        <img className="rightArrow" src={ArrowRight} alt=''/>
                         <div className="nextNavText navText">
                             <h3>{nextProject(projectIndex).project_title}</h3>
                             <p className='body1 projectNavButtonSubtitle'>Next Project</p>

@@ -15,12 +15,12 @@ function App() {
       <div className="pageContainer">
         <Nav />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/portfolio">
+          <Route path="/minimalist-portfolio" element={<Home />} />
+          <Route path="/minimalist-portfolio/portfolio">
             <Route index element={<PortfolioIndex />} />
             <Route path=":projectName" element={<PortfolioDetail />} />
           </Route>
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/minimalist-portfolio/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>

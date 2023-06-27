@@ -10,7 +10,7 @@ const Nav = () => {
     const [navMenuOpen, setNavMenuOpen] = useState(false)
     return (
         <div className="navBar">
-            <Link to="/" onClick={GoToTop()}><img src={Logo} alt="logo" className="logo" /></Link>
+            <Link to="/minimalist-portfolio/" onClick={GoToTop()}><img src={Logo} alt="logo" className="logo" /></Link>
             <Burger navMenuOpen={navMenuOpen} setNavMenuOpen={setNavMenuOpen} />
             <Menu navMenuOpen={navMenuOpen} setNavMenuOpen={setNavMenuOpen} />
         </div>

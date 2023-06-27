@@ -29,7 +29,7 @@ const ProjectDetailNav = (props) => {
         <>
             <div className="projectDetailNavContainer">
                 <div className="previousProjectContainer projectNavButton">
-                    <Link to={`/portfolio/${previousProject(projectIndex).project_title}`} className='projectLink prevProjectLink' onClick={GoToTop()}>
+                    <Link to={`/minimalist-portfolio/portfolio/${previousProject(projectIndex).project_title}`} className='projectLink prevProjectLink' onClick={GoToTop()}>
                         <img className='leftArrow' src={ArrowLeft} alt=''/>
                         <div className="prevNavText navText">
                             <h3>{previousProject(projectIndex).project_title}</h3>
@@ -39,7 +39,7 @@ const ProjectDetailNav = (props) => {
                 </div>
 
                 <div className="nextProjectContainer projectNavButton">
-                    <Link to={`/portfolio/${nextProject(projectIndex).project_title}`} className='projectLink nextProjectLink' onClick={GoToTop()}>
+                    <Link to={`/minimalist-portfolio/portfolio/${nextProject(projectIndex).project_title}`} className='projectLink nextProjectLink' onClick={GoToTop()}>
                         <img className="rightArrow" src={ArrowRight} alt=''/>
                         <div className="nextNavText navText">
                             <h3>{nextProject(projectIndex).project_title}</h3>

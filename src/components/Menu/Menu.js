@@ -10,9 +10,9 @@ const Menu = ({ navMenuOpen, setNavMenuOpen }) => {
         <>
             <nav id="nav_links" data-visible={navMenuOpen}>
                 <ul>
-                    <li><NavLink to="/" onClick={handleClick}>HOME</NavLink></li>
-                    <li><NavLink to="/portfolio" onClick={handleClick}>PORTFOLIO</NavLink></li>
-                    <li><NavLink to="/contact" onClick={handleClick}>CONTACT ME</NavLink></li>
+                    <li><NavLink to="/minimalist-portfolio/" onClick={handleClick}>HOME</NavLink></li>
+                    <li><NavLink to="/minimalist-portfolio/portfolio" onClick={handleClick}>PORTFOLIO</NavLink></li>
+                    <li><NavLink to="/minimalist-portfolio/contact" onClick={handleClick}>CONTACT ME</NavLink></li>
                 </ul>
             </nav>
         </>

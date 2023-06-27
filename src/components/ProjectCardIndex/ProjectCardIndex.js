@@ -22,7 +22,7 @@ const ProjectCardIndex = (props) => {
                 <div className="projectInfo">
                     <h1 className="projectTitle">{project.project_title}</h1>
                     <p className="body2">{project.project_description}</p>
-                    <Link to={`/portfolio/${project.project_title}`}><div className="simpleLink">VIEW PROJECT</div></Link>                    
+                    <Link to={`/minimalist-portfolio/portfolio/${project.project_title}`}><div className="simpleLink">VIEW PROJECT</div></Link>                    
                 </div>
             </div>
         </>

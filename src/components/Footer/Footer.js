@@ -15,9 +15,9 @@ const Footer = () => {
                         <Link to="/" onClick={GoToTop()}><img src={Logo} alt="logo" className="logo footerLogo" /></Link>
                     </div>
                     <div className="footerNav">
-                        <Link to="/" onClick={GoToTop()}>HOME</Link>
-                        <Link to="/portfolio" onClick={GoToTop()}>PORTFOLIO</Link>
-                        <Link to="/contact" onClick={GoToTop()}>CONTACT ME</Link>
+                        <Link to="/minimalist-portfolio" onClick={GoToTop()}>HOME</Link>
+                        <Link to="/minimalist-portfolio/portfolio" onClick={GoToTop()}>PORTFOLIO</Link>
+                        <Link to="/minimalist-portfolio/contact" onClick={GoToTop()}>CONTACT ME</Link>
                     </div>
                     <div className="socialMediaIcons">
                         <img src={GitHub} alt="Github Logo" className="socialMediaIcon" />

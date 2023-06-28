@@ -9,7 +9,7 @@ import { GoToTop } from "../../utils/GoToTop"
 const Footer = () => {
     return (
         <>
-            <div className="footerContainer">
+            <footer className="footerContainer">
                 <div className="footerWrapper">
                     <div className="footerLogo">
                         <Link to="/minimalist-portfolio/" onClick={GoToTop()}><img src={Logo} alt="logo" className="logo footerLogo" /></Link>
@@ -25,7 +25,7 @@ const Footer = () => {
                         <img src={LinkedIn} alt="LinkedIn Logo" className="socialMediaIcon" />
                     </div>
                 </div>
-            </div>
+            </footer>
         </>
     )
 }

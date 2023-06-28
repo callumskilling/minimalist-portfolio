@@ -69,7 +69,7 @@ export const portfolioData = [
                 "preview1_tablet": require("../../assets/images/detail/tablet/image-bookmark-preview-1.jpg"),
                 "preview1_tablet_2x": require("../../assets/images/detail/tablet/image-bookmark-preview-1@2x.jpg"),
                 "preview1_mobile": require("../../assets/images/detail/mobile/image-bookmark-preview-1.jpg"),
-                "preview1_mobile_2x": require("../../assets/images/detail/mobile/image-bookmark-preview-2@2x.jpg")
+                "preview1_mobile_2x": require("../../assets/images/detail/mobile/image-bookmark-preview-1@2x.jpg")
             },
             "preview2": {
                 "preview2_desktop": require("../../assets/images/detail/desktop/image-bookmark-preview-2.jpg"),
@@ -110,7 +110,7 @@ export const portfolioData = [
                 "preview1_tablet": require("../../assets/images/detail/tablet/image-insure-preview-1.jpg"),
                 "preview1_tablet_2x": require("../../assets/images/detail/tablet/image-insure-preview-1@2x.jpg"),
                 "preview1_mobile": require("../../assets/images/detail/mobile/image-insure-preview-1.jpg"),
-                "preview1_mobile_2x": require("../../assets/images/detail/mobile/image-insure-preview-2@2x.jpg")
+                "preview1_mobile_2x": require("../../assets/images/detail/mobile/image-insure-preview-1@2x.jpg")
             },
             "preview2": {
                 "preview2_desktop": require("../../assets/images/detail/desktop/image-insure-preview-2.jpg"),
@@ -151,7 +151,7 @@ export const portfolioData = [
                 "preview1_tablet": require("../../assets/images/detail/tablet/image-fylo-preview-1.jpg"),
                 "preview1_tablet_2x": require("../../assets/images/detail/tablet/image-fylo-preview-1@2x.jpg"),
                 "preview1_mobile": require("../../assets/images/detail/mobile/image-fylo-preview-1.jpg"),
-                "preview1_mobile_2x": require("../../assets/images/detail/mobile/image-fylo-preview-2@2x.jpg")
+                "preview1_mobile_2x": require("../../assets/images/detail/mobile/image-fylo-preview-1@2x.jpg")
             },
             "preview2": {
                 "preview2_desktop": require("../../assets/images/detail/desktop/image-fylo-preview-2.jpg"),

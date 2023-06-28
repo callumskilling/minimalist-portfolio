@@ -25,7 +25,7 @@ const Hero = () => {
                 </picture>
                 <div className="heroText">
                     <h1 className="heroTitle">Hey, I'm Alex Spencer and I love building beautiful websites</h1>
-                    <HashLink smooth to="/minimalist-portfolio/#aboutMe">
+                    <HashLink smooth to="/minimalist-portfolio#aboutMe">
                         <div className="aboutMeButton">
                             <span className="buttonIcon">
                                 <img src={ArrowIcon} className="arrowIcon" alt="down arrow to About Me section"/>

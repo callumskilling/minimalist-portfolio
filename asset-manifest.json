@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/minimalist-portfolio/static/css/main.b3ea0214.css",
-    "main.js": "/minimalist-portfolio/static/js/main.3616da09.js",
+    "main.js": "/minimalist-portfolio/static/js/main.b71201ad.js",
     "static/media/image-insure-hero@2x.jpg": "/minimalist-portfolio/static/media/image-insure-hero@2x.4a22d204208c5518c596.jpg",
     "static/media/image-homepage-profile@2x.jpg": "/minimalist-portfolio/static/media/image-homepage-profile@2x.bd63a80a1022006e670f.jpg",
     "static/media/image-homepage-hero@2x.jpg": "/minimalist-portfolio/static/media/image-homepage-hero@2x.0d83d4b9158321b8d1e2.jpg",
@@ -49,10 +49,10 @@
     "static/media/arrow-left.svg": "/minimalist-portfolio/static/media/arrow-left.a89e4de1cc043b26dac31bbd843bb626.svg",
     "static/media/arrow-right.svg": "/minimalist-portfolio/static/media/arrow-right.aec1b6f966bfbb1a22ccd01ed94a4c4c.svg",
     "main.b3ea0214.css.map": "/minimalist-portfolio/static/css/main.b3ea0214.css.map",
-    "main.3616da09.js.map": "/minimalist-portfolio/static/js/main.3616da09.js.map"
+    "main.b71201ad.js.map": "/minimalist-portfolio/static/js/main.b71201ad.js.map"
   },
   "entrypoints": [
     "static/css/main.b3ea0214.css",
-    "static/js/main.3616da09.js"
+    "static/js/main.b71201ad.js"
   ]
 }

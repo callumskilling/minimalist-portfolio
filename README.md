@@ -40,7 +40,6 @@ Install the project with npm. The project was created using Create React App, a 
 ## Acknowledgments
 * [Img Shields](https://shields.io)
 * [GitHub Pages](https://pages.github.com)
-* [CodeCademy](https://codecademy.com)
 * [readme.so](https://readme.so)
 ## Authors
 Callum Skilling

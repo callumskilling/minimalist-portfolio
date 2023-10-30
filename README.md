@@ -1,25 +1,7 @@
-# Frontend Mentor - Minimalist portfolio website solution
 
-This is a solution to the [Minimalist portfolio website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/minimalist-portfolio-website-LMy-ZRyiE). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+# Minimalist Portfolio
 
-## Table of contents
-
-- [Frontend Mentor - Minimalist portfolio website solution](#frontend-mentor---minimalist-portfolio-website-solution)
-  - [Table of contents](#table-of-contents)
-  - [Overview](#overview)
-    - [The challenge](#the-challenge)
-    - [Screenshot](#screenshot)
-    - [Links](#links)
-  - [My process](#my-process)
-    - [Built with](#built-with)
-    - [What I learned](#what-i-learned)
-    - [Continued development](#continued-development)
-    - [Useful resources](#useful-resources)
-  - [Author](#author)
-
-## Overview
-
-### The challenge
+This is a solution to the [Minimalist portfolio website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/minimalist-portfolio-website-LMy-ZRyiE). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 Users should be able to:
 
@@ -30,54 +12,37 @@ Users should be able to:
   - The `Name`, `Email Address` or `Message` fields are empty should show "This field is required"
   - The `Email Address` is not formatted correctly should show "Please use a valid email address"
 
-### Screenshot
 
-![](./src/)
+## Badges
 
-### Links
+![HTML5][HTML5]
+![CSS3][CSS3]
+![JavaScript][JavaScript]
+[![React][React.js]][React-url]
+[![GitHub][GitHub]][GitHub-url]
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+[HTML5]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
+[CSS3]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
+[Javascript]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[GitHub]: https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white
+[GitHub-url]: https://github.com
+## Installation
 
-## My process
+Install the project with npm. The project was created using Create React App, a now deprecated project. I suggest using [ViteJS](https://vitejs.dev/) for future React projects.
 
-### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-
-### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-```html
-<h1>Some HTML code I'm proud of</h1>
+```bash
+  npm install
+  npm run start
 ```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+    
+## Acknowledgments
+* [Img Shields](https://shields.io)
+* [GitHub Pages](https://pages.github.com)
+* [CodeCademy](https://codecademy.com)
+* [readme.so](https://readme.so)
+## Authors
+Callum Skilling
+- [Portfolio: callumskilling.dev](https://callumskilling.dev/)
+- [GitHub: @callumskilling](https://github.com/callumskilling)
